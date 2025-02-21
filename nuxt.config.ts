@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: false }, // Devtools kapatıldı, istersen açabilirsin
+  devtools: { enabled: false }, 
 
   runtimeConfig: {
     public: {
@@ -9,9 +9,7 @@ export default defineNuxtConfig({
     }
   },
 
-  css: ["@/styles/global.css"], // Tailwind CSS için gerekli
-
-  modules: ["@nuxt/devtools"], // Eğer devtools kullanıyorsan ekle
+  css: ["@/styles/global.css"], 
 
   pages: true,
 });
